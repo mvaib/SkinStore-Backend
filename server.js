@@ -21,7 +21,7 @@ app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
 
 app.get("/",(req,res)=>{
-    res.send("API Working")
+    res.send("Hello World")
 })
 
 app.listen(PORT, ()=>{
